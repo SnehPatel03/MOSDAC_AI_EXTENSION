@@ -23,3 +23,4 @@ def chuncking(content: Dict , chunk_size: int=500) -> List[Dict]:
             }
         )
         return chunks
+    
