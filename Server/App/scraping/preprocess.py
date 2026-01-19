@@ -1,5 +1,6 @@
 import re
 from typing import List,Dict
+
 def clean_text(text: str):
     """
     Removes extra spaces
@@ -22,5 +23,5 @@ def chuncking(content: Dict , chunk_size: int=500) -> List[Dict]:
                 "content" : chunk_text
             }
         )
-        return chunks
+    return chunks
     
